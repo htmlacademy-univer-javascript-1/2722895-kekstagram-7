@@ -1,5 +1,4 @@
 import { generatePhotos } from './data.js';
+import { renderThumbnails } from './thumbnails.js';
 
-// Вызываем функцию, чтобы проверить, что модуль работает без ошибок.
-// В следующих заданиях здесь появится логика отрисовки.
-generatePhotos();
+renderThumbnails(generatePhotos());
